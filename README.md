@@ -84,3 +84,7 @@ This will expand the three options to interact with your chaincode:
 * **querySSN** — the argument is `ssnId`. If you have previously opted in with a Social Security number, this will query the world state and return a message that this number is opted in.
 
 To interact with each of the options, right-click on it and select `Submit Transaction`.
+
+### Releases
+
+If you want to just play around with a packaged chaincode, check [Releases](https://github.com/akegaviar/freedomDividend/releases).
