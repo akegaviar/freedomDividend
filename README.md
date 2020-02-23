@@ -18,14 +18,14 @@ Those that have opted in, can be queried from the world state to have their mont
 
 This tutorial uses:
 
-* [Visual Studio Code] with the [IBM Blockchain Platform extension](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform).
+* [Visual Studio Code](https://code.visualstudio.com/) with the [IBM Blockchain Platform extension](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform).
 * The chaincode is done in JavaScript. You should have Node.js and npm installed.
 * [Docker](https://www.docker.com/get-started) to support the local Hyperledger Fabric network initiated via the IBM Blockchain Platform extension.
 * [fabric-shim](https://www.npmjs.com/package/fabric-shim) to package the chaincode via the IBM Blockchain Platform extension.
 
 Note that for this tutorial, I am using Visual Studio Code version `1.38.1` as later versions [have issues](https://github.com/IBM-Blockchain/blockchain-vscode-extension/issues/1621) with the IBM Blockchain Platform extension.
 
-## The chaincode, aka freedomDividendContract
+## The chaincode aka freedomDividendContract
 
 ### Create the chaincode
 
@@ -34,9 +34,9 @@ Note that for this tutorial, I am using Visual Studio Code version `1.38.1` as l
 1. Click **Smart Contracts** > **Create New Project**.
 1. Select **Default Contract**. Select **JavaScript**. Type in a name for your chaincode. For this tutorial, it's `freedomDividendContract`.
 1. Choose a directory to save your project to. In the directory, all the necessary chaincode files will be generated.
-1. Your main file is the contract in the `./lib/` directory. For this tutorial, it's [freedomDividendContract.js]()TTK. Do check out the code, as it's commented.
-1. Make sure your `index.js` file has the correct parameters relative to the contract. See [index.js]()TTK
-1. Make sure you have the correct name and chaincode version in `package.json`. See [package.json]()TTk
+1. Your main file is the contract in the `./lib/` directory. For this tutorial, it's [freedomDividendContract.js](https://github.com/akegaviar/freedomDividend/blob/master/contract/lib/freedomDividendContract.js). Do check out the code, as it's commented.
+1. Make sure your `index.js` file has the correct parameters relative to the contract. See [index.js](https://github.com/akegaviar/freedomDividend/blob/master/contract/index.js).
+1. Make sure you have the correct name and chaincode version in `package.json`. See [package.json](https://github.com/akegaviar/freedomDividend/blob/master/contract/package.json).
 
 ### Package the chaincode
 
