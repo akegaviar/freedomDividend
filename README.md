@@ -42,7 +42,7 @@ Note that for this tutorial, I am using Visual Studio Code version `1.38.1` as l
 
 Make sure you have [fabric-shim](https://www.npmjs.com/package/fabric-shim) installed in your chaincode project directory:
 
-`npm in fabric-shim`
+`npm i fabric-shim`
 
 Click **Smart Contracts** > **Package Open Project**.
 
